@@ -28,14 +28,15 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  Auto Filter V1
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+➥ Editor : [Paulwalker](https://github.com/Vampire421)
+
+➥ Database : [MONGODB FREE TIER](https://mongodb.com)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+➥ Source Code : [Click Me](https://t.me/ippotharam34)
 """
