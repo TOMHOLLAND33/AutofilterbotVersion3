@@ -21,15 +21,15 @@ HELP = """
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V1
+➥ 𝙽𝚊𝚖𝚎 : 𝙼𝚒𝚊 𝙺𝚑𝚊𝚕𝚒𝚏𝚊 
     
-➥ Editor : [Paulwalker](https://github.com/Vampire421)
+➥ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : [𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛](https://github.com/Vampire421)
 
-➥ Database : [MONGODB FREE TIER](https://mongodb.com)
+➥ 𝙳𝚊𝚝𝚊𝚋𝚊𝚜𝚎 : [𝙼𝚘𝚗𝚐𝚘𝙳𝙱](https://mongodb.com)
 
-➥ Language : Python3
+➥ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : 𝙿𝚢𝚝𝚑𝚘𝚗 3 
 
-➥ Library : Pyrogram Asyncio 1.13.0
+➥ 𝙻𝚒𝚋𝚛𝚊𝚛𝚢 : 𝙱𝙴𝚃𝙰 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 1.2
 
-➥ Source Code : [Click Me](https://t.me/ippotharam34)
+➥ 𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 : [𝙲𝚕𝚒𝚌𝚔 𝙷𝚎𝚛𝚎 ❤️](https://t.me/ippotharam34)
 """
