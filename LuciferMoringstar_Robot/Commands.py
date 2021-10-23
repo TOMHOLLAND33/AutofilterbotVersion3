@@ -124,11 +124,11 @@ async def start(bot, message):
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[
-                Inlinekeyboardbutton("➕ Add to group ➕", url="http://t.me/fbm_autofilterbot?startgroup=true"),   
+                InlineKeyboardbutton("➕ Add to group ➕", url="http://t.me/fbm_autofilterbot?startgroup=true"),   
                 InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("❔ Help", callback_data="help"),
-                Inlinekeyboardbutton("🤖 Updates", url="https://t.me/housefull_links"),
+                InlineKeyboardbutton("🤖 Updates", url="https://t.me/housefull_links"),
                 InlineKeyboardButton("☺️ About", callback_data="about")
                 ]]
             )
