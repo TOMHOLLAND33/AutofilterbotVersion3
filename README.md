@@ -12,7 +12,7 @@
 
 ### ഇവിടെ ഉണ്ട്
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://t.me/ippotharam34)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Vampire421/Autofilterv1)
 
 <b> ഹാപ്പി അയല്ലോ </b>
 
