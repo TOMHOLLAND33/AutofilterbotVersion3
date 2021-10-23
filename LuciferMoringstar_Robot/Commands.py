@@ -115,7 +115,7 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                Inlinekeyboardbutton("➕ Add to group ➕", url="http://t.me/BotUsername?startgroup=true"),   
+                Inlinekeyboardbutton("➕ Add to group ➕", url="http://t.me/fbm_autofilterbot?startgroup=true"),   
                 InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
