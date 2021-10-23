@@ -134,7 +134,6 @@ async def start(bot, message):
                 ]]
             )
         )
-        StopPropagation
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
