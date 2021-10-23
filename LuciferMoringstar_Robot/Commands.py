@@ -120,7 +120,7 @@ async def start(bot, message):
     else:
     	await message.reply_photo(
             photo=f"{random.choice(PHOTO)}",
-            caption=START_MSG.format(message.from_user.mention),
+            caption=f"𝙷𝙴𝙻𝙻𝙾 {message.from_user.mention} + START_MSG,
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[
