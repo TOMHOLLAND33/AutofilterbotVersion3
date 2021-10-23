@@ -25,6 +25,8 @@ ABOUT = """
     
 ➥ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 : [𝙿𝚊𝚞𝚕𝚆𝚊𝚕𝚔𝚎𝚛](https://github.com/Vampire421)
 
+➥ Contribution : [Mufaz-tg](https://github.com/Mufaz-TG)
+
 ➥ 𝙳𝚊𝚝𝚊𝚋𝚊𝚜𝚎 : [𝙼𝚘𝚗𝚐𝚘𝙳𝙱](https://mongodb.com)
 
 ➥ 𝙻𝚊𝚗𝚐𝚞𝚊𝚐𝚎 : 𝙿𝚢𝚝𝚑𝚘𝚗 3 
