@@ -18,10 +18,10 @@ LOG_CHANNEL = BROADCAST_CHANNEL
 db = Database(DB_URL, SESSION)
 
 PHOTO = [
-    "https://telegra.ph/file/2e11d66dd5b61aabc6747.jpg",
-    "https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg",
-    "https://telegra.ph/file/9567cfe30d2f702ad22d8.jpg",
-    "https://telegra.ph/file/81f3c0c3d5d08f2db0c48.jpg"
+    "https://telegra.ph/file/a10d544a38b182ea33050.jpg",
+    "https://telegra.ph/file/758b2b7f7007f3e220ce5.jpg",
+    "https://telegra.ph/file/30a10b7b6cdad6e06ad7a.jpg",
+    "https://telegra.ph/file/0679e6cc0b8712cfaf821.jpg"
 ]
 
 
@@ -93,7 +93,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('❤️ Thanks for using meh !! ❤️', url=f'https://t.me/housefull_links')
+                        InlineKeyboardButton('⚜️ JOIN CHANNEL !! ⚜️', url=f'https://t.me/NM_NEWMOVIESALWAYSHD')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -129,7 +129,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("❔ Help", callback_data="help")
                 ],[
-                InlineKeyboardButton("🤖 Updates", url="https://t.me/housefull_links"),
+                InlineKeyboardButton("🤖 Updates", url="https://t.me/NM_NEWMOVIESALWAYSHD"),
                 InlineKeyboardButton("☺️ About", callback_data="about")
                 ]]
             )
@@ -342,12 +342,12 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('❤️ Thanks For Using Me ❤️', url=f'https://t.me/housefull_links')
+            InlineKeyboardButton('⚜️ JOIN CHANNEL ⚜️', url=f'https://t.me/NM_NEWMOVIESALWAYSHD')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 START_TXT = """𝙷𝙴𝙻𝙻𝙾 {}
 
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 𝚂𝙰𝚁𝙰, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 LOKI , 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍
 """
