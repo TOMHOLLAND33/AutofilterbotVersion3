@@ -115,9 +115,11 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                Inlinekeyboardbutton("➕ Add to group ➕", url="http://t.me/BotUsername?startgroup=true"),   
+                InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat='')
                 ],[
                 InlineKeyboardButton("Help", callback_data="help"),
+                Inlinekeyboardbutton("🤖 Updates", url="https://t.me/housefull_links),
                 InlineKeyboardButton("About", callback_data="about")
                 ]]
             )
@@ -331,7 +333,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('UPDATES', url=f'https://t.me/housefull_links')
+            InlineKeyboardButton('❤️ Thanks For Using Me ❤️', url=f'https://t.me/housefull_links')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
