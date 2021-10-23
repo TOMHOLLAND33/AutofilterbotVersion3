@@ -22,9 +22,7 @@ PHOTO = [
      "https://telegra.ph/file/9567cfe30d2f702ad22d8.jpg",
      "https://telegra.ph/file/81f3c0c3d5d08f2db0c48.jpg",
      
-
 ]
-
 
 @Client.on_message(filters.command("start"))
 async def start(bot, message):
