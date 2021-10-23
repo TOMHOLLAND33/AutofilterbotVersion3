@@ -126,7 +126,7 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("➕ Add to group ➕", url="http://t.me/fbm_autofilterbot?startgroup=true")
                 ],[ 
-                InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("🔍 Search Here", switch_inline_query_current_chat=''),
                 InlineKeyboardButton("❔ Help", callback_data="help")
                 ],[
                 InlineKeyboardButton("🤖 Updates", url="https://t.me/housefull_links"),
