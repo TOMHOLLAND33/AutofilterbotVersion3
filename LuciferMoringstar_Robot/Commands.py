@@ -19,9 +19,9 @@ db = Database(DB_URL, SESSION)
 
 PHOTO = [
     "https://telegra.ph/file/2e11d66dd5b61aabc6747.jpg",
-     "https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg",
-     "https://telegra.ph/file/9567cfe30d2f702ad22d8.jpg",
-     "https://telegra.ph/file/81f3c0c3d5d08f2db0c48.jpg"
+    "https://telegra.ph/file/2ebbd10c905d0e031f4dc.jpg",
+    "https://telegra.ph/file/9567cfe30d2f702ad22d8.jpg",
+    "https://telegra.ph/file/81f3c0c3d5d08f2db0c48.jpg"
 ]
 
 
