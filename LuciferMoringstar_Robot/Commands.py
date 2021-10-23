@@ -121,7 +121,7 @@ async def start(bot, message):
     	await message.reply_photo(
             photo=f"{random.choice(PHOTO)}",
             caption=START_TXT.format(message.from_user.mention),
-            parse_mode="Markdown",
+            parse_mode="HTML",
             reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("➕ Add to group ➕", url="http://t.me/fbm_autofilterbot?startgroup=true")
